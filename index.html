@@ -1,140 +1,382 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Munjaane Coffee | Munjaane ಕಾಫಿ</title>
-  <meta name="description" content="Munjaane Filter Coffee Powder. Ordinary and Special blends made for everyday filter coffee. Free delivery within 5 km.">
-  <meta name="keywords" content="Munjaane Coffee, filter coffee powder, coffee powder, Karnataka filter coffee, ordinary coffee, special coffee">
-  <meta name="theme-color" content="#5a3b27">
-  <link rel="canonical" href="https://www.Munjannekapi.in/">
-  <meta property="og:title" content="Munjaane Coffee | Filter Coffee Powder">
-  <meta property="og:description" content="A little happiness every day. Munjaane Filter Coffee Powder.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.Munjannekapi.in/">
-  <meta property="og:image" content="assets/og-banner.svg">
-  <style>
-    :root{--brown:#5a3b27;--dark:#2b1a0f;--cream:#f7ead7;--gold:#b87b24;--green:#3f5b37;--paper:#fffaf3}
-    *{box-sizing:border-box} html{scroll-behavior:smooth}
-    body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--dark);background:var(--paper)}
-    a{color:inherit}.nav{position:sticky;top:0;z-index:20;background:rgba(255,250,243,.96);backdrop-filter:blur(10px);border-bottom:1px solid #ead9c2}
-    .nav-inner{max-width:1160px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:700}.brand-mark{width:44px;height:44px;border:2px solid var(--brown);border-radius:50%;display:grid;place-items:center;background:var(--cream);font-size:18px}
-    .brand span{font-size:22px}.links{display:flex;gap:22px;font-family:Arial,sans-serif;font-size:14px}.links a{text-decoration:none}
-    .hero{max-width:1400px;margin:auto;position:relative;overflow:hidden;background:var(--cream);min-height:430px;border-bottom:1px solid #d9c4a6}
-    .hero-bg{position:absolute;inset:0;background:linear-gradient(rgba(247,234,215,.15),rgba(247,234,215,.15)),url("hero-background.png") center/cover no-repeat}
-    .hero::after{content:"";position:absolute;right:-8%;bottom:-45%;width:60%;height:90%;background:radial-gradient(ellipse at center,#6c472a 0 8%,transparent 9%),radial-gradient(ellipse at center,#c18b45 0 3%,transparent 4%);opacity:.18;transform:rotate(-7deg)}
-    .hero-content{position:relative;z-index:2;max-width:1160px;margin:auto;padding:54px 28px 40px;display:grid;grid-template-columns:1.45fr .9fr;gap:30px;align-items:center}
-    .logo{font-size:clamp(54px,8vw,100px);line-height:.82;margin:0;color:#321c0f;letter-spacing:-4px}
-    .kannada{font-size:clamp(36px,5vw,60px);font-weight:700;margin:18px 0 8px;line-height:1}
-    .tag{font-family:Arial,sans-serif;letter-spacing:4px;font-weight:700;font-size:clamp(14px,2vw,22px);margin:14px 0;color:#3b2517}
-    .promise{display:inline-block;background:#3b2414;color:#fff4df;padding:10px 18px;border-radius:5px;font-size:clamp(17px,2.2vw,26px);margin-top:10px}
-    .hero-sub{font-size:24px;color:var(--green);margin:12px 0 0}
-    .cup-scene{height:300px;display:grid;place-items:center;position:relative}.cup{width:180px;height:105px;border:7px solid #5c3a24;border-radius:12px 12px 55px 55px;background:linear-gradient(#8f5a2d,#3c2414);position:relative;box-shadow:0 20px 35px #5a3b2733}.cup:before{content:"";position:absolute;right:-55px;top:18px;width:58px;height:58px;border:7px solid #5c3a24;border-left:0;border-radius:0 50% 50% 0}.saucer{position:absolute;width:280px;height:42px;border:6px solid #5c3a24;border-radius:50%;bottom:64px}.steam{position:absolute;top:25px;width:90px;height:80px;border-left:5px solid #6c4a31;border-radius:50%;transform:skew(-8deg);opacity:.55}
-    .section{max-width:1100px;margin:auto;padding:72px 22px}.center{text-align:center}.eyebrow{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:3px;color:var(--gold);font-size:13px;font-weight:700}.section h2{font-size:42px;margin:8px 0 12px}.section-lead{font-size:20px;line-height:1.6;color:#624a36;max-width:720px;margin:0 auto 36px}
-    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.card{background:#fff;border:1px solid #e6d4bd;border-radius:18px;overflow:hidden;box-shadow:0 12px 30px #5a3b2710}.card-top{height:auto;aspect-ratio:1/1;background:linear-gradient(135deg,#d79b4b,#f4d5a0);display:flex;align-items:end;justify-content:center}.card.special .card-top{background:linear-gradient(135deg,#29452d,#79906c)}.pack{width:150px;height:125px;border-radius:10px 10px 7px 7px;background:#b9782e;box-shadow:0 12px 18px #2b1a0f30;display:flex;align-items:center;justify-content:center}.special .pack{background:#19311f}.label{width:112px;height:86px;border:2px solid #6a4426;border-radius:50%;background:#f5e6ca;text-align:center;padding-top:12px;font-weight:700}.card-body{padding:24px}.card h3{font-size:28px;margin:0 0 10px}.blend{font-size:18px;font-weight:700}.desc{line-height:1.6;color:#654e3b}.price{font-size:21px;font-weight:700;margin:18px 0}.sizes{font-family:Arial,sans-serif;font-size:14px;color:#60462f}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:7px;padding:14px 22px;background:var(--brown);color:white;text-decoration:none;font-family:Arial,sans-serif;font-weight:700;cursor:pointer}.btn.gold{background:#a86d1e}.btn.full{width:100%}
-    .delivery{background:#f1e0c7}.delivery-box{max-width:900px;margin:auto;background:#fffaf3;border:1px solid #dec6a6;border-radius:16px;padding:30px}.delivery h3{font-size:28px;margin:0 0 12px}.delivery p{font-size:18px;line-height:1.6;margin:8px 0}.note{font-family:Arial,sans-serif;font-size:13px;color:#765e48}
-    .about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.about p{font-size:18px;line-height:1.8;color:#5f4937}.highlight{padding:28px;border-left:5px solid var(--gold);background:#f8eddc}
-    .contact{background:#2e1b10;color:#fff4e2}.contact .section-lead{color:#e6d3bb}.contact .btn{background:#fff4e2;color:#3a2314}
-    footer{background:#20130c;color:#cdbba5;text-align:center;padding:22px;font-family:Arial,sans-serif;font-size:13px}
-    @media(max-width:800px){.links{display:none}.hero-content{grid-template-columns:1fr;padding:38px 20px 30px;text-align:center}.cup-scene{height:190px}.cup{transform:scale(.75)}.saucer{transform:scale(.75);bottom:20px}.grid,.about{grid-template-columns:1fr}.section{padding:52px 18px}.section h2{font-size:34px}.hero{min-height:0}.logo{letter-spacing:-3px}.hero-sub{font-size:18px}.promise{font-size:16px}.card-top{height:135px}}
-  </style>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"LocalBusiness",
-    "name":"Munjaane Coffee",
-    "url":"https://www.Munjannekapi.in/",
-    "description":"Munjaane Filter Coffee Powder with Ordinary and Special blends.",
-    "brand":{"@type":"Brand","name":"Munjaane"},
-    "sameAs":[]
-  }
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Munjaane Coffee | Munjaane ಕಾಫಿ</title>
+<meta name="description" content="Munjaane Filter Coffee Powder — a little happiness every day. Discover our Ordinary and Special blends.">
+<meta name="theme-color" content="#2b1a0f">
+<link rel="canonical" href="https://munjaanecoffee.github.io/">
+<style>
+:root{
+  --espresso:#24150d;
+  --brown:#4b2d1c;
+  --coffee:#6b4327;
+  --cream:#f7efe3;
+  --paper:#fffaf4;
+  --gold:#b98945;
+  --green:#304733;
+  --line:rgba(75,45,28,.16);
+  --shadow:0 24px 70px rgba(36,21,13,.12);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--espresso);font-family:Inter,Arial,sans-serif}
+img{max-width:100%;display:block}
+a{color:inherit}
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,250,244,.9);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line)
+}
+.nav-inner{
+  max-width:1240px;margin:auto;padding:14px 28px;
+  display:flex;align-items:center;justify-content:space-between;gap:24px
+}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:46px;width:auto}
+.brand-name{font-family:Georgia,serif;font-size:20px;font-weight:700}
+.links{display:flex;gap:28px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.links a{text-decoration:none;opacity:.8}
+.links a:hover{opacity:1}
+.hero{
+  position:relative;min-height:720px;overflow:hidden;
+  display:flex;align-items:center;
+  background:#eadbc8;
+}
+.hero-bg{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(90deg,rgba(247,239,227,.96) 0%,rgba(247,239,227,.78) 38%,rgba(247,239,227,.15) 72%,rgba(247,239,227,.02) 100%),
+    url("hero-background.png") center/cover no-repeat;
+  transform:scale(1.01)
+}
+.hero::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(36,21,13,.04),transparent 45%,rgba(36,21,13,.14));
+  pointer-events:none
+}
+.hero-content{
+  position:relative;z-index:2;width:100%;max-width:1240px;margin:auto;
+  padding:90px 28px;display:grid;grid-template-columns:1fr .75fr;gap:40px;align-items:center
+}
+.hero-copy{max-width:620px}
+.kicker{
+  font-size:12px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gold);font-weight:800;margin-bottom:20px
+}
+.hero h1{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(58px,8vw,108px);line-height:.86;
+  letter-spacing:-.055em;margin:0;color:var(--espresso)
+}
+.kannada{
+  font-family:"Noto Sans Kannada","Nirmala UI",sans-serif;
+  font-size:clamp(38px,5vw,64px);font-weight:800;
+  line-height:1;margin:22px 0 12px
+}
+.tagline{
+  font-family:Georgia,serif;font-size:clamp(23px,3vw,36px);
+  line-height:1.15;margin:0 0 14px;color:var(--brown)
+}
+.subline{font-size:17px;line-height:1.7;color:#624a36;max-width:500px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:50px;padding:0 24px;border-radius:999px;
+  text-decoration:none;font-weight:800;font-size:14px;
+  transition:transform .2s ease,box-shadow .2s ease
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--espresso);color:#fff;box-shadow:0 12px 30px rgba(36,21,13,.22)}
+.btn-secondary{border:1px solid rgba(75,45,28,.35);background:rgba(255,250,244,.62)}
+.hero-note{
+  margin-top:28px;font-size:12px;letter-spacing:.12em;
+  text-transform:uppercase;color:#70543d
+}
+.section{max-width:1180px;margin:auto;padding:100px 28px}
+.eyebrow{
+  font-size:11px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--gold);font-weight:800
+}
+.section-title{
+  font-family:Georgia,serif;font-size:clamp(40px,5vw,62px);
+  line-height:1.02;letter-spacing:-.035em;margin:10px 0 18px
+}
+.lead{font-size:18px;line-height:1.75;color:#6a5542;max-width:720px}
+.intro{text-align:center;max-width:760px;margin:0 auto 54px}
+.features{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line)
+}
+.feature{padding:34px 28px;text-align:center}
+.feature+ .feature{border-left:1px solid var(--line)}
+.feature-number{font-family:Georgia,serif;color:var(--gold);font-size:18px}
+.feature h3{font-family:Georgia,serif;font-size:23px;margin:10px 0}
+.feature p{color:#705b47;line-height:1.6;margin:0}
+.coffee-section{background:#f3e9dc}
+.products{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+.product{
+  background:#fff;border:1px solid var(--line);border-radius:24px;
+  overflow:hidden;box-shadow:var(--shadow)
+}
+.product-image{
+  aspect-ratio:1/1;background:#eee4d7;
+  display:flex;align-items:center;justify-content:center;padding:18px
+}
+.product-image img{width:100%;height:100%;object-fit:contain}
+.product-body{padding:30px}
+.product-label{
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);font-weight:800
+}
+.product h3{font-family:Georgia,serif;font-size:38px;margin:8px 0 8px}
+.blend{font-weight:800;color:var(--brown)}
+.desc{color:#6a5542;line-height:1.7}
+.price-row{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:24px 0}
+.price{font-family:Georgia,serif;font-size:30px;font-weight:700}
+.sizes{font-size:13px;color:#806b56}
+.product .btn{width:100%;background:var(--espresso);color:#fff}
+.story{
+  display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center
+}
+.story-card{
+  background:var(--espresso);color:#fff4e5;border-radius:28px;
+  padding:52px;box-shadow:var(--shadow)
+}
+.story-card .eyebrow{color:#d5a25b}
+.story-card h2{font-family:Georgia,serif;font-size:46px;line-height:1.04;margin:12px 0 20px}
+.story-card p{color:#ddcbb6;line-height:1.8}
+.quote{
+  font-family:Georgia,serif;font-size:28px;line-height:1.35;
+  border-left:3px solid var(--gold);padding-left:24px;margin-top:30px
+}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.step{
+  background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;
+  min-height:190px
+}
+.step span{font-family:Georgia,serif;font-size:28px;color:var(--gold)}
+.step h3{font-family:Georgia,serif;font-size:22px;margin:12px 0 8px}
+.step p{color:#6a5542;line-height:1.55;margin:0}
+.delivery{
+  background:var(--green);color:#fff9ef;text-align:center
+}
+.delivery .section{padding-top:85px;padding-bottom:85px}
+.delivery .eyebrow{color:#d8b36f}
+.delivery h2{font-family:Georgia,serif;font-size:48px;margin:12px 0}
+.delivery p{max-width:680px;margin:0 auto;color:#e5dccd;line-height:1.7}
+.order{
+  background:
+    radial-gradient(circle at 80% 20%,rgba(185,137,69,.18),transparent 25%),
+    var(--espresso);
+  color:#fff7ea;text-align:center
+}
+.order .section{padding-top:95px;padding-bottom:95px}
+.order h2{font-family:Georgia,serif;font-size:clamp(44px,6vw,70px);margin:12px 0}
+.order .lead{color:#d9c9b7;margin:0 auto 30px}
+.order .btn{background:#fff7ea;color:var(--espresso)}
+footer{background:#160c07;color:#bfae9a;text-align:center;padding:28px;font-size:12px;letter-spacing:.06em}
+.footer-logo{font-family:Georgia,serif;color:#fff1df;font-size:22px;margin-bottom:8px}
+.footer-socials{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:18px}
+.footer-socials a{color:#fff1df;text-decoration:none;font-size:20px;line-height:1;opacity:.88;transition:opacity .2s ease,transform .2s ease}
+.footer-socials a:hover{opacity:1;transform:translateY(-2px)}
+@media(max-width:900px){
+  .links{display:none}
+  .hero{min-height:700px}
+  .hero-bg{background:
+    linear-gradient(180deg,rgba(247,239,227,.94) 0%,rgba(247,239,227,.74) 46%,rgba(247,239,227,.18) 100%),
+    url("hero-background.png") center/cover no-repeat}
+  .hero-content{grid-template-columns:1fr;padding:70px 22px}
+  .features{grid-template-columns:1fr}
+  .feature+.feature{border-left:0;border-top:1px solid var(--line)}
+  .products,.story{grid-template-columns:1fr}
+  .steps{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:560px){
+  .nav-inner{padding:12px 16px}
+  .brand-name{display:none}
+  .hero{min-height:650px}
+  .hero-content{padding:58px 18px}
+  .section{padding:72px 18px}
+  .products{gap:18px}
+  .product-body{padding:24px}
+  .story-card{padding:32px 24px}
+  .steps{grid-template-columns:1fr}
+}
+</style>
 </head>
 <body>
+
 <header class="nav">
   <div class="nav-inner">
-    <a class="brand" href="#top"><img src="logo.png" alt="Munjaane Coffee | Munjaane ಕಾಫಿ" style="height:44px;width:auto;"><span>Munjaane ಕಾಫಿ</span></a>
-    <nav class="links"><a href="#coffee">Our Coffee</a><a href="#delivery">Delivery</a><a href="#about">About</a><a href="#contact">Order</a></nav>
+    <a class="brand" href="#top">
+      <img src="logo.png" alt="Munjaane Coffee | Munjaane ಕಾಫಿ">
+      <span class="brand-name">Munjaane ಕಾಫಿ</span>
+    </a>
+    <nav class="links">
+      <a href="#coffee">Our Coffee</a>
+      <a href="#story">Our Story</a>
+      <a href="#how">How to Brew</a>
+      <a href="#order">Order</a>
+    </nav>
   </div>
 </header>
 
 <main id="top">
+
 <section class="hero">
-  <img class="hero-bg" src="hero-background.png" alt="">
+  <div class="hero-bg"></div>
   <div class="hero-content">
-    <div>
-      <h1 class="logo">Munjaane</h1>
+    <div class="hero-copy">
+      <div class="kicker">South Indian Filter Coffee</div>
+      <h1>Munjaane</h1>
       <div class="kannada">ಕಾಫಿ</div>
-      <div class="tag">FILTER COFFEE POWDER</div>
-      <div class="promise">ಪ್ರತಿ ದಿನದ ಸಣ್ಣ ಖುಷಿ ♥</div>
-      <div class="hero-sub">A little happiness every day</div>
+      <p class="tagline">ಪ್ರತಿ ದಿನದ ಸಣ್ಣ ಖುಷಿ</p>
+      <p class="subline">A little happiness every day. Carefully blended filter coffee powder for the moments that deserve a beautiful cup.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#coffee">Explore Our Coffee</a>
+        <a class="btn btn-secondary" href="#order">Order on WhatsApp</a>
+      </div>
+      <div class="hero-note">Freshly packed • Made for filter coffee</div>
     </div>
-    <div class="cup-scene"><div class="steam"></div><div class="saucer"></div><div class="cup"></div></div>
   </div>
 </section>
 
-<section class="section center" id="coffee">
-  <div class="eyebrow">Our Coffee</div>
-  <h2>Two blends, one love for filter coffee.</h2>
-  <p class="section-lead">Choose the blend that suits your everyday cup.</p>
-  <div class="grid">
-    <article class="card ">
-           <div class="card-top"><img src="ordinary.jpg" alt="Munjaane Coffee Ordinary" style="width:100%;height:100%;object-fit:contain;padding:10px;"></div>
-      <div class="card-body">
-        <h3>Ordinary</h3><div class="blend">60% Coffee + 40% Chicory</div>
-        <p class="desc">A balanced everyday blend for a comforting cup of filter coffee.</p>
-        <div class="sizes">Available in 250 g • 500 g • 1 kg</div>
-        <div class="price">From ₹150</div>
-        <a class="btn full" href="#contact">Order Ordinary</a>
-      </div>
-    </article>
-    <article class="card special">
-      <div class="card-top"><img src="special.jpg" alt="Munjaane Coffee Special" style="width:100%;height:100%;object-fit:contain;padding:10px;"></div>
-      <div class="card-body">
-        <h3>Special</h3><div class="blend">80% Coffee + 20% Chicory</div>
-        <p class="desc">A richer blend for those who enjoy a stronger coffee character.</p>
-        <div class="sizes">Available in 250 g • 500 g • 1 kg</div>
-        <div class="price">From ₹165</div>
-        <a class="btn full" href="#contact">Order Special</a>
-      </div>
-    </article>
+<section class="section">
+  <div class="intro">
+    <div class="eyebrow">The Munjaane Experience</div>
+    <h2 class="section-title">Simple coffee. Beautiful moments.</h2>
+    <p class="lead">Every Munjaane cup is made for the everyday rituals that make mornings, evenings and conversations a little better.</p>
+  </div>
+  <div class="features">
+    <div class="feature">
+      <div class="feature-number">01</div>
+      <h3>Rich Aroma</h3>
+      <p>A comforting coffee character that fills the room before the first sip.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-number">02</div>
+      <h3>Carefully Blended</h3>
+      <p>Two distinct coffee and chicory blends for two different everyday preferences.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-number">03</div>
+      <h3>Made for Filter Coffee</h3>
+      <p>Created for the familiar South Indian filter coffee experience at home.</p>
+    </div>
   </div>
 </section>
 
-<section class="delivery" id="delivery">
+<section class="coffee-section" id="coffee">
   <div class="section">
-    <div class="delivery-box">
-      <div class="eyebrow">Delivery</div>
-      <h3>🚚 Simple & convenient delivery</h3>
-      <p><strong>Free delivery within 5 km.</strong></p>
-      <p>For locations beyond 5 km, delivery can be arranged through Porter at applicable charges.</p>
-      <p class="note">Delivery availability and charges are confirmed when your order is placed.</p>
+    <div class="intro">
+      <div class="eyebrow">Our Coffee</div>
+      <h2 class="section-title">Two blends. One love for filter coffee.</h2>
+      <p class="lead">Choose the blend that suits your everyday cup.</p>
+    </div>
+
+    <div class="products">
+      <article class="product">
+        <div class="product-image">
+          <img src="ordinary.jpg" alt="Munjaane Coffee Ordinary">
+        </div>
+        <div class="product-body">
+          <div class="product-label">Everyday Blend</div>
+          <h3>Ordinary</h3>
+          <div class="blend">60% Coffee + 40% Chicory</div>
+          <p class="desc">A balanced everyday blend for a comforting cup of filter coffee.</p>
+          <div class="price-row">
+            <div class="price">From ₹150</div>
+            <div class="sizes">250 g • 500 g • 1 kg</div>
+          </div>
+          <a class="btn" href="#order">Order Ordinary</a>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="product-image">
+          <img src="special.jpg" alt="Munjaane Coffee Special">
+        </div>
+        <div class="product-body">
+          <div class="product-label">Signature Blend</div>
+          <h3>Special</h3>
+          <div class="blend">80% Coffee + 20% Chicory</div>
+          <p class="desc">A richer blend for those who enjoy a stronger coffee character.</p>
+          <div class="price-row">
+            <div class="price">From ₹165</div>
+            <div class="sizes">250 g • 500 g • 1 kg</div>
+          </div>
+          <a class="btn" href="#order">Order Special</a>
+        </div>
+      </article>
     </div>
   </div>
 </section>
 
-<section class="section" id="about">
-  <div class="about">
+<section class="section" id="story">
+  <div class="story">
     <div>
       <div class="eyebrow">About Munjaane</div>
-      <h2>Small things. Simple moments. Little happiness.</h2>
-      <p>Munjaane brings filter coffee powder for everyday mornings, evenings and everything in between.</p>
-      <p>Our two blends are made to give you a comforting cup at home.</p>
+      <h2 class="section-title">Small things. Simple moments. Little happiness.</h2>
+      <p class="lead">Munjaane brings filter coffee powder for everyday mornings, evenings and everything in between.</p>
+      <p class="lead">Our two blends are made to give you a comforting cup at home — familiar, warm and easy to make part of your daily ritual.</p>
     </div>
-    <div class="highlight"><strong>A little happiness every day.</strong><br><br>Freshly packed coffee powder for your everyday cup.</div>
+    <div class="story-card">
+      <div class="eyebrow">Munjaane ಕಾಫಿ</div>
+      <h2>A little happiness every day.</h2>
+      <p>Freshly packed coffee powder for your everyday cup.</p>
+      <div class="quote">“The best coffee moments are often the simplest ones.”</div>
+    </div>
+  </div>
+
+</section>
+
+<section class="section" id="how">
+  <div class="intro">
+    <div class="eyebrow">The Ritual</div>
+    <h2 class="section-title">Your perfect filter coffee, simply.</h2>
+    <p class="lead">A few familiar steps between you and that first comforting sip.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><span>01</span><h3>Add</h3><p>Add your preferred amount of Munjaane coffee powder to the filter.</p></div>
+    <div class="step"><span>02</span><h3>Brew</h3><p>Pour hot water and let the decoction slowly brew through.</p></div>
+    <div class="step"><span>03</span><h3>Mix</h3><p>Combine the decoction with hot milk and sugar to your taste.</p></div>
+    <div class="step"><span>04</span><h3>Savour</h3><p>Pour, pause and enjoy your little happiness every day.</p></div>
   </div>
 </section>
 
-<section class="contact" id="contact">
-  <div class="section center">
-    <div class="eyebrow" style="color:#d5a25b">Order</div>
-    <h2>Ready for your next cup?</h2>
-    <p class="section-lead">Tap below to place your order on WhatsApp.</p>
-    <!-- Replace YOUR_WHATSAPP_NUMBER with your WhatsApp number, including country code, e.g. 919876543210 -->
-<a class="btn" href="https://wa.me/message/GEZW76W2XL3PD1" target="_blank" rel="noopener">☕ Order on WhatsApp</a>
+<section class="delivery">
+  <div class="section">
+    <div class="eyebrow">Delivery</div>
+    <h2>From our coffee shelf to your cup.</h2>
+    <p><strong>Free delivery within 5 km.</strong><br>For locations beyond 5 km, delivery can be arranged through Porter at applicable charges. Delivery availability and charges are confirmed when your order is placed.</p>
+  </div>
 </section>
+
+<section class="order" id="order">
+  <div class="section">
+    <div class="eyebrow">Order</div>
+    <h2>Ready for your next cup?</h2>
+    <p class="lead">Tap below to place your order directly on WhatsApp.</p>
+    <a class="btn" href="https://wa.me/message/GEZW76W2XL3PD1" target="_blank" rel="noopener">☕ Order on WhatsApp</a>
+  </div>
+</section>
+
 </main>
-<footer>© 2026 Munjaane Coffee • Filter Coffee Powder</footer>
+
+<footer>
+  <div class="footer-logo">Munjaane ಕಾಫಿ</div>
+  <div>ಪ್ರತಿ ದಿನದ ಸಣ್ಣ ಖುಷಿ • A little happiness every day</div>
+  <div style="margin-top:8px">© 2026 Munjaane Coffee</div>
+  <div class="footer-socials" aria-label="Munjaane social links">
+    <a href="https://wa.me/message/GEZW76W2XL3PD1" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">◉</a>
+    <a href="https://www.instagram.com/munjaane_coffee?igsi=MW93c2RwMXNxcDZ2cQ==" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">◎</a>
+    <a href="https://www.facebook.com/share/1DUhRLtCGV/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">f</a>
+    <a href="https://x.com/MunjaaneCoffee" target="_blank" rel="noopener" aria-label="X" title="X">𝕏</a>
+  </div>
+</footer>
+
 </body>
 </html>
