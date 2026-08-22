@@ -46,11 +46,20 @@ a{color:inherit}
   background:#eadbc8;
 }
 .hero-bg{
-  position:absolute;inset:0;
-  background:
-    linear-gradient(90deg,rgba(247,239,227,.96) 0%,rgba(247,239,227,.78) 38%,rgba(247,239,227,.15) 72%,rgba(247,239,227,.02) 100%),
-    url("bgimage.jpeg")
-  transform:scale(1.01)
+  position:absolute;
+  inset:0;
+  background-image:
+    linear-gradient(90deg,
+      rgba(247,239,227,.96) 0%,
+      rgba(247,239,227,.78) 38%,
+      rgba(247,239,227,.15) 72%,
+      rgba(247,239,227,.02) 100%
+    ),
+    url("bgimage.jpeg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  transform:scale(1.01);
 }
 .hero::after{
   content:"";position:absolute;inset:0;
