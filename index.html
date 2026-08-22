@@ -42,10 +42,10 @@ a{color:inherit}
 .links a:hover{opacity:1}
 .hero{
   position:relative;
-  min-height:720px;
   overflow:hidden;
   display:flex;
   align-items:center;
+  aspect-ratio:3 / 2;
   background:#eadbc8;
 }
 .hero-bg{
@@ -53,11 +53,13 @@ a{color:inherit}
   inset:0;
   background:
     linear-gradient(90deg,
-      rgba(247,239,227,.82) 0%,
-      rgba(247,239,227,.55) 38%,
-      rgba(247,239,227,.12) 72%,
+      rgba(247,239,227,.72) 0%,
+      rgba(247,239,227,.45) 38%,
+      rgba(247,239,227,.10) 72%,
       rgba(247,239,227,.02) 100%
     ),
+    url("bgimage.jpeg") center center / 100% 100% no-repeat;
+},
     url("bgimage.jpeg") center center / 100% 100% no-repeat;
 }
     url("bgimage.jpeg");
@@ -198,8 +200,20 @@ footer{background:#160c07;color:#bfae9a;text-align:center;padding:28px;font-size
 .footer-socials a:hover{opacity:1;transform:translateY(-2px)}
 @media(max-width:900px){
   .links{display:none}
-  .hero{min-height:700px}
-  .hero-bg{background:
+  .hero{
+  min-height:650px;
+  aspect-ratio:auto;
+}
+
+.hero-bg{
+  background:
+    linear-gradient(180deg,
+      rgba(247,239,227,.72) 0%,
+      rgba(247,239,227,.40) 46%,
+      rgba(247,239,227,.10) 100%
+    ),
+    url("bgimage.jpeg") center center / cover no-repeat;
+}
     linear-gradient(180deg,rgba(247,239,227,.94) 0%,rgba(247,239,227,.74) 46%,rgba(247,239,227,.18) 100%),
     url("bgimage.jpeg") center/cover no-repeat}
   .hero-content{grid-template-columns:1fr;padding:70px 22px}
