@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.munjannekapi.in/sitemap.xml
+Sitemap: https://munjaanecoffee.github.io/sitemap.xml
